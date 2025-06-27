@@ -19,7 +19,6 @@
 }
 
 .intro-section .intro-discription {
-    height: 46px;
     font-size: 24px;
     font-weight: 500;
     color: var(--text-color);
@@ -213,7 +212,6 @@
     font-size: 18px;
     line-height: 26px;
     letter-spacing: 1px;
-
 }
 
 .intro-section .intro-image-section .user-review .user-detail h1,
@@ -234,9 +232,9 @@
 }
 
 .intro-section .intro-image-section .teacher-and-member {
-    width: 26%;
-    /* width: 234px; */
-    height: 112px;
+    /* width: 26%; */
+    width: 234px;
+    /* height: 112px; */
     border-radius: 16px;
     border: 1px solid rgba(195, 196, 198, 1);
     background-color: rgba(255, 255, 255, 1);
@@ -249,8 +247,9 @@
     /* top: -655px;
     right: -530px; */
     position: absolute;
-    top: 445px;
+    /* top: 445px; */
     right: 131px;
+    bottom: 245px;
 }
 
 .intro-section .intro-image-section .teacher-and-member img {
@@ -281,179 +280,241 @@
     text-align: center;
 }
 
-
-/* @media screen and (max-width: 1600px) {
+@media screen and (max-width: 1440px) {
     .intro-section .intro-image-section .intro-image {
-        width: 800px;
-    }
-    
-    .intro-section .intro-image-section .user-review {
-        width: 350px;
+        top: -80px;
     }
 
-    .intro-section .intro-image-section .teacher-and-member {
-        width: 210px;
-    }
-
-    .intro-section .intro-section-container {
-        max-width: 59.5%;
-    }
-
-    .intro-section .get-started {
-        width: 442px;
-    }
-} */
-
-
-/* @media screen and (max-width: 1200px) {
-    .intro-section {
-        flex-direction: column;
-        align-items: center;
-        max-height: none;
-        padding: 20px;
-    }
-
-    .intro-section .intro-section-container {
-        max-width: 90%;
-        height: auto;
-        top: 0;
-    }
-
-    .intro-section .intro-text {
-        width: 100%;
-    }
-
-    .intro-section .get-started {
-        width: 100%;
-        justify-content: center;
-        margin-top: 20px;
-    }
-
-    .intro-section .get-started .get-started-input,
-    .intro-section .get-started .get-started-button {
-        width: 100%;
-        position: static;
-    }
-
-    .intro-section .social {
-        width: 100%;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .intro-section .intro-image-section {
-        width: 100%;
-        text-align: center;
-        margin-top: 40px;
-    }
-
-    .intro-section .intro-image-section .intro-image img {
-        width: 90%;
+    .intro-section .intro-discription {
+        line-height: 16px;
     }
 
     .intro-section .intro-image-section .user-review {
-        position: static;
-        margin-top: 30px;
+        width: 280px;
+        padding: 28px 20px 16px 20px;
+        bottom: 130px;
     }
 
-    .intro-section .intro-image-section .teacher-and-member {
-        position: static;
-        margin-top: 20px;
-        width: 90%;
-    }
-}
-
-
-@media screen and (max-width: 992px) {
-    .intro-section .get-started .get-started-input,
-    .intro-section .get-started .get-started-button {
-        height: 54px;
+    .intro-section .intro-image-section .user-review p {
+        margin: 0px;
+        letter-spacing: 1px;
+        font-weight: 400;
         font-size: 16px;
+        line-height: 16px;
     }
 
-    .intro-section .intro-text h1 {
-        font-size: 32px;
-        line-height: 46px;
+    .intro-section .intro-image-section .user-review .user-detail img {
+        width: 48px;
+        height: 48px;
     }
 
-    .intro-section .intro-discription {
-        font-size: 20px;
-        line-height: 38px;
-    }
-
-    .intro-section .social .social-icon {
-        width: 48%;
-        margin-bottom: 10px;
-    }
-
-    .intro-section .intro-image-section .user-review,
-    .intro-section .intro-image-section .teacher-and-member {
-        padding: 20px;
-    }
-}
-
-
-@media screen and (max-width: 768px) {
-    .intro-section {
-        padding: 16px;
-    }
-
-    .intro-section .intro-text h1 {
-        font-size: 26px;
-        line-height: 36px;
-    }
-
-    .intro-section .intro-discription {
-        font-size: 18px;
-        line-height: 30px;
-    }
-
-    .intro-section .get-started {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .intro-section .get-started .get-started-input,
-    .intro-section .get-started .get-started-button {
-        width: 100%;
+    .intro-section .intro-image-section .user-review .user-detail {
         margin-top: 8px;
     }
 
-    .intro-section .intro-image-section .user-review,
-    .intro-section .intro-image-section .teacher-and-member {
-        width: 100%;
+    .intro-section .intro-image-section .user-review .user-detail h1 {
+        font-size: 16px;
+        line-height: 24px;
     }
 
-    .intro-section .social {
-        flex-direction: column;
+    .intro-section .intro-image-section .user-review .user-detail .user-detail-text {
+        margin: 5px 0px;
+        display: grid;
         align-items: center;
+    }
+
+    .intro-section .intro-image-section .user-review .user-detail .user-detail-text h1 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .intro-section .intro-image-section .user-review .user-detail .user-detail-text p {
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+    .intro-section .intro-image-section .teacher-and-member {
+        width: 184px;
+        position: absolute;
+        right: 105px;
+        bottom: 270px;
+    }
+    
+    .intro-section .intro-image-section .teacher-and-member img {
+        width: 48px;
+        position: absolute;
+    }
+    
+    .intro-section .intro-image-section .teacher-and-member .teachers-members-text {
+        display: block;
+        padding: 16px;
+    }
+    
+    .intro-section .intro-image-section .teacher-and-member .teachers-members-text h4 {
+        font-size: 20px;
+    }
+    
+    .intro-section .intro-image-section .teacher-and-member .teachers-members-text p {
+        font-size: 14px;
     }
 }
 
 
-@media screen and (max-width: 576px) {
-    .intro-section .intro-text h1 {
-        font-size: 22px;
+@media screen and (min-width: 1288px) and (max-width: 1340px) {
+    .intro-section .intro-image-section .intro-image {
+        top: -50px;
     }
 
     .intro-section .intro-discription {
-        font-size: 16px;
+        line-height: 16px;
     }
 
-    .intro-section .get-started .get-started-button span {
-        font-size: 16px;
+    .intro-section .intro-image-section .user-review {
+        width: 260px;
+        padding: 28px 20px 16px 20px;
+        bottom: 100px;
     }
 
-    .intro-section .intro-image-section .intro-image img {
-        width: 100%;
+    .intro-section .intro-image-section .user-review p {
+        margin: 0px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
     }
 
-    .intro-section .intro-section-container {
-        top: 0;
+    .intro-section .intro-image-section .user-review .user-detail img {
+        width: 40px;
+        height: 40px;
     }
 
-    .intro-section .intro-image-section .user-review,
+    .intro-section .intro-image-section .user-review .user-detail {
+        margin-top: 8px;
+    }
+
+    .intro-section .intro-image-section .user-review .user-detail h1 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .intro-section .intro-image-section .user-review .user-detail .user-detail-text {
+        margin: 5px 0px;
+        display: grid;
+        align-items: center;
+    }
+
+    .intro-section .intro-image-section .user-review .user-detail .user-detail-text h1 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .intro-section .intro-image-section .user-review .user-detail .user-detail-text p {
+        font-size: 10px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
     .intro-section .intro-image-section .teacher-and-member {
-        padding: 16px;
+        width: 160px;
+        right: 85px;
+        bottom: 200px;
     }
-} */
+    
+    .intro-section .intro-image-section .teacher-and-member img {
+        width: 40px;
+    }
+    
+    .intro-section .intro-image-section .teacher-and-member .teachers-members-text {
+        display: block;
+        padding: 12px;
+    }
+    
+    .intro-section .intro-image-section .teacher-and-member .teachers-members-text h4 {
+        font-size: 18px;
+    }
+    
+    .intro-section .intro-image-section .teacher-and-member .teachers-members-text p {
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1287px) {
+    .intro-section .intro-image-section .intro-image {
+        top: -30px;
+    }
+
+    .intro-section .intro-discription {
+        line-height: 14px;
+    }
+
+    .intro-section .intro-image-section .user-review {
+        width: 200px;
+        padding: 18px 16px 10px 16px;
+        bottom: 80px;
+        left: 0px;
+    }
+
+    .intro-section .intro-image-section .user-review p {
+        margin: 0px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .intro-section .intro-image-section .user-review .user-detail img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .intro-section .intro-image-section .user-review .user-detail {
+        margin-top: 8px;
+    }
+
+    .intro-section .intro-image-section .user-review .user-detail h1 {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .intro-section .intro-image-section .user-review .user-detail .user-detail-text {
+        margin: 5px 0px;
+        display: grid;
+        align-items: center;
+    }
+
+    .intro-section .intro-image-section .user-review .user-detail .user-detail-text h1 {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .intro-section .intro-image-section .user-review .user-detail .user-detail-text p {
+        font-size: 8px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+    .intro-section .intro-image-section .teacher-and-member {
+        width: 140px;
+        right: 65px;
+        bottom: 160px;
+    }
+    
+    .intro-section .intro-image-section .teacher-and-member img {
+        width: 36px;
+    }
+    
+    .intro-section .intro-image-section .teacher-and-member .teachers-members-text {
+        display: block;
+        padding: 12px;
+    }
+    
+    .intro-section .intro-image-section .teacher-and-member .teachers-members-text h4 {
+        font-size: 16px;
+    }
+    
+    .intro-section .intro-image-section .teacher-and-member .teachers-members-text p {
+        font-size: 10px;
+    }
+}
