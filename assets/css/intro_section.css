@@ -1,0 +1,459 @@
+.intro-section {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 800px;
+    /* position: absolute; */
+}
+
+.intro-section .intro-section-container {
+    max-width: 61.5%;
+    height: 395px;
+    position: relative;
+    top: 105px;
+}
+
+.intro-section .intro-text {
+    width: 396px;
+    height: 114px;
+}
+
+.intro-section .intro-discription {
+    height: 46px;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--text-color);
+    align-content: center;
+    line-height: 46px;
+}
+
+.intro-section .intro-text h1 {
+    margin: 0px;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--text-color);
+    line-height: 57px;
+}
+
+.intro-section .intro-text .vector-image {
+    position: absolute;
+    top: 49px;
+    width: 215px;
+}
+
+.intro-section .get-started {
+    width: 542px;
+    height: 62px;
+    display: flex;
+    justify-content: end;
+}
+
+.intro-section .get-started .get-started-input {
+    width: 542px;
+}
+
+.intro-section .get-started .get-started-input,
+.intro-section .get-started .get-started-button {
+    height: 62px;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.intro-section .get-started .get-started-button {
+    width: 229px;
+    border-radius: 56px;
+    background-color: rgba(237, 176, 49, 1);
+    border: none;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.intro-section .get-started .get-started-button img {
+    width: 24px;
+    height: 24px;
+}
+
+
+.intro-section .get-started .get-started-button span {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.intro-section .get-started .get-started-input {
+    border-radius: 56px;
+    border: 1px solid rgba(23, 59, 88, 1);
+    padding-left: 30px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    font-size: 18px;
+}
+
+.intro-section .get-started .get-started-input::placeholder {
+    font-size: 18px;
+    font-family: 700;
+    opacity: 30%;
+    color: var(--text-color);
+}
+
+
+.intro-section .social {
+    width: 306px;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.intro-section .social .social-icon {
+    width: 148px;
+    height: 100%;
+    background-color: rgba(237, 242, 247, 1);
+    border-radius: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-section .social .social-icon img.feide {
+    width: 84px;
+    height: 29px;
+}
+
+.intro-section .social .social-icon img.vipps {
+    width: 102px;
+    height: 26px;
+}
+
+.intro-section .intro-image-section {
+    position: relative;
+}
+
+.intro-section .intro-image-section .intro-image {
+    /* width: 62.5%; */
+    /* height: 62.5%; */
+    /* height: 900px; */
+    position: relative;
+    /* position: relative; */
+    top: -135px;
+    /* max-width: 900px; */
+}
+
+/* .intro-section .intro-image-section .intro-image {
+    width: 900px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+} */
+
+.intro-section .intro-image-section .intro-image img {
+    /* width: 900px; */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.intro-section .intro-image-section .user-review {
+    /* width: 42.2%; */
+    width: 380px;
+    border-radius: 16px;
+    border: 1px solid rgba(195, 196, 198, 1);
+    padding: 28px 20px 16px 20px;
+    background-color: rgba(255, 255, 255, 1);
+    /* position: relative; */
+    /* top: -245px;
+    right: 70px; */
+    /* top: -375px;
+    right: 70px; */
+    position: absolute;
+    bottom: 65px;
+    left: -60px;
+}
+
+.intro-section .intro-image-section .user-review p {
+    margin: 0px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(30, 30, 30, 1);
+    line-height: 26px;
+}
+
+
+.intro-section .intro-image-section .user-review .user-detail img {
+    width: 56px;
+    height: 56px;
+}
+
+.intro-section .intro-image-section .user-review .user-detail {
+    display: flex;
+    justify-content: start;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.intro-section .intro-image-section .user-review .user-detail .user-detail-text {
+    margin: 5px 0px;
+    display: grid;
+    align-items: center;
+}
+
+.intro-section .intro-image-section .user-review .user-detail .user-detail-text p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 1px;
+}
+
+.intro-section .intro-image-section .user-review .user-detail .user-detail-text h1 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 1px;
+
+}
+
+.intro-section .intro-image-section .user-review .user-detail h1,
+.intro-section .intro-image-section .user-review .user-detail p {
+    margin: 0px;
+}
+
+.intro-section .intro-image-section .user-review .user-detail img {
+    width: 56px;
+    height: 56px;
+}
+
+
+.intro-section .intro-image-section .user-review .user-detail h1 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.intro-section .intro-image-section .teacher-and-member {
+    width: 26%;
+    /* width: 234px; */
+    height: 112px;
+    border-radius: 16px;
+    border: 1px solid rgba(195, 196, 198, 1);
+    background-color: rgba(255, 255, 255, 1);
+    /* position: absolute;
+    top: 570px;
+    right: 133px; */
+    /* position: relative; */
+    /* top: -515px;
+    right: -535px; */
+    /* top: -655px;
+    right: -530px; */
+    position: absolute;
+    top: 445px;
+    right: 131px;
+}
+
+.intro-section .intro-image-section .teacher-and-member img {
+    width: 50px;
+    position: absolute;
+}
+
+.intro-section .intro-image-section .teacher-and-member .teachers-members-text {
+    display: block;
+    padding: 24px;
+}
+
+.intro-section .intro-image-section .teacher-and-member .teachers-members-text h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgba(23, 59, 88, 1);
+}
+
+.intro-section .intro-image-section .teacher-and-member .teachers-members-text p {
+    font-size: 18px;
+    color: rgba(30, 30, 30, 1);
+    margin-top: 8px !important;
+}
+
+.intro-section .intro-image-section .teacher-and-member .teachers-members-text h4,
+.intro-section .intro-image-section .teacher-and-member .teachers-members-text p {
+    margin: 0px;
+    text-align: center;
+}
+
+
+/* @media screen and (max-width: 1600px) {
+    .intro-section .intro-image-section .intro-image {
+        width: 800px;
+    }
+    
+    .intro-section .intro-image-section .user-review {
+        width: 350px;
+    }
+
+    .intro-section .intro-image-section .teacher-and-member {
+        width: 210px;
+    }
+
+    .intro-section .intro-section-container {
+        max-width: 59.5%;
+    }
+
+    .intro-section .get-started {
+        width: 442px;
+    }
+} */
+
+
+/* @media screen and (max-width: 1200px) {
+    .intro-section {
+        flex-direction: column;
+        align-items: center;
+        max-height: none;
+        padding: 20px;
+    }
+
+    .intro-section .intro-section-container {
+        max-width: 90%;
+        height: auto;
+        top: 0;
+    }
+
+    .intro-section .intro-text {
+        width: 100%;
+    }
+
+    .intro-section .get-started {
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .intro-section .get-started .get-started-input,
+    .intro-section .get-started .get-started-button {
+        width: 100%;
+        position: static;
+    }
+
+    .intro-section .social {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .intro-section .intro-image-section {
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .intro-section .intro-image-section .intro-image img {
+        width: 90%;
+    }
+
+    .intro-section .intro-image-section .user-review {
+        position: static;
+        margin-top: 30px;
+    }
+
+    .intro-section .intro-image-section .teacher-and-member {
+        position: static;
+        margin-top: 20px;
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .intro-section .get-started .get-started-input,
+    .intro-section .get-started .get-started-button {
+        height: 54px;
+        font-size: 16px;
+    }
+
+    .intro-section .intro-text h1 {
+        font-size: 32px;
+        line-height: 46px;
+    }
+
+    .intro-section .intro-discription {
+        font-size: 20px;
+        line-height: 38px;
+    }
+
+    .intro-section .social .social-icon {
+        width: 48%;
+        margin-bottom: 10px;
+    }
+
+    .intro-section .intro-image-section .user-review,
+    .intro-section .intro-image-section .teacher-and-member {
+        padding: 20px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .intro-section {
+        padding: 16px;
+    }
+
+    .intro-section .intro-text h1 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .intro-section .intro-discription {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .intro-section .get-started {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro-section .get-started .get-started-input,
+    .intro-section .get-started .get-started-button {
+        width: 100%;
+        margin-top: 8px;
+    }
+
+    .intro-section .intro-image-section .user-review,
+    .intro-section .intro-image-section .teacher-and-member {
+        width: 100%;
+    }
+
+    .intro-section .social {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .intro-section .intro-text h1 {
+        font-size: 22px;
+    }
+
+    .intro-section .intro-discription {
+        font-size: 16px;
+    }
+
+    .intro-section .get-started .get-started-button span {
+        font-size: 16px;
+    }
+
+    .intro-section .intro-image-section .intro-image img {
+        width: 100%;
+    }
+
+    .intro-section .intro-section-container {
+        top: 0;
+    }
+
+    .intro-section .intro-image-section .user-review,
+    .intro-section .intro-image-section .teacher-and-member {
+        padding: 16px;
+    }
+} */
