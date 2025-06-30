@@ -18,28 +18,15 @@ body {
 }
 
 
-
-
-/* @media screen and (max-width: 1200px) {
+@media screen and (max-width: 1099px) { 
     .container {
-        padding: 0px 72px;
+        padding: 0px 64px;
     }
 }
 
-@media screen and (max-width: 992px) {
+
+@media screen and (max-width: 720px) { 
     .container {
         padding: 0px 48px;
     }
 }
-
-@media screen and (max-width: 768px) {
-    .container {
-        padding: 0px 24px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .container {
-        padding: 0px 16px;
-    }
-} */
