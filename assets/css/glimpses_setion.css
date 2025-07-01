@@ -1,0 +1,324 @@
+.glimpses-section {
+    max-width: 1440px;
+    justify-content: center;
+    margin-top: 115px;
+}
+
+.glimpses-section .glimpses-section-container h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--text-color);
+    line-height: 57px;
+    text-align: center;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media {
+    display: flex;
+    gap: 31px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-card.info {
+    background-color: rgba(24, 60, 89, 1);
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 48px 57px 49px 56px;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-card.info h1 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: white;
+    text-align: start;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-card.info p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: white;
+    text-align: start;
+    margin-top: 11px;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    padding: 14px 19px;
+    border: 1px solid rgba(217, 219, 233, 1);
+    box-shadow: 0px 22.34px 17.87px 0px rgba(0, 0, 0, 0.15);
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .basic-image,
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.video .basic-image {
+    width: 100%;
+    height: 100%;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .basic-image-container {
+    max-width: 250px;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-color);
+    line-height: 20px;
+    margin: 16px 0px;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .book-text {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    height: 20px;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .book-text p,
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra .steps p,
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra .hours p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 20px;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra {
+    display: flex;
+    gap: 38px;
+    height: 20px;
+    margin-top: 16px;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra .steps,
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra .hours {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.video {
+    width: 100%;
+    border-radius: 20px;
+    background-image: url("../images/unsplash_Ju9DbmVFcAo.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(24, 60, 89, 1);
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.video .play-button {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    background-color: rgba(23, 59, 88, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.video .play-button .play-button-image {
+    width: 19px;
+    height: 23px;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.video .play-button .play-button-image img {
+    width: 100%;
+    height: auto;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic hr {
+    margin-top: 20px;
+    border: 1px solid rgba(217, 219, 233, 1);
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-image {
+    width: 40px;
+    height: 40px;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-image img {
+    width: 100%;
+    height: auto;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text {
+    width: 60%;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text p {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 70px;
+    background-color: rgba(237, 242, 247, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-button img {
+    height: 80%;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .book-text p,
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra .steps p,
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra .hours p {
+        font-size: 12px;
+    }
+
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-title {
+        font-size: 14px;
+    }
+
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .glimpses-section {
+        margin-top: 250px;
+    }
+
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.video {
+        height: 400px;
+        width: auto;
+    }
+
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic {
+        display: flex;
+        gap: 10px;
+    }
+
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .basic-card-text-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .glimpses-section {
+        margin-top: 150px;
+    }
+
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .basic-image-container {
+        max-width: 230px;
+    }
+
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-card.info {
+        padding: 26px 23px 24px 23px;
+    }
+    
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-card.info h1 {
+        font-size: 20px;
+    }
+    
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-card.info p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .glimpses-section {
+        margin-top: 80px;
+    }
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .basic-image-container {
+        max-width: 180px;
+    }
+
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .book-text p,
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra .steps p,
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra .hours p {
+        font-size: 10px;
+    }
+
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra {
+        margin-top: 8px;
+    }
+
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-title {
+        font-size: 12px;
+    }
+
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text p {
+        font-size: 10px;
+    }
+
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text h3 {
+        font-size: 12px;
+    }
+
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-card.info {
+        padding: 20px;
+    }
+    
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-card.info h1 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-card.info p {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    .glimpses-section .glimpses-section-container h1 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .basic-card-text-container {
+        padding: 0px;
+    }
+
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-title {
+        margin: 3px;
+    }
+
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.video {
+        height: 250px;
+        width: auto;
+    }
+
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.video .play-button {
+        width: 70px;
+        height: 70px;
+    }
+}

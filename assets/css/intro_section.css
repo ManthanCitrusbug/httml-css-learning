@@ -789,7 +789,6 @@
     
 }
 
-
 @media screen and (max-width: 720px) {
     .intro-section .intro-image-section .user-review {
         width: 220px;
@@ -947,5 +946,6 @@
     .intro-section .get-started .get-started-input,
     .intro-section .get-started .get-started-button {
         height: 40px;
+        padding: 12px;
     }
 }
