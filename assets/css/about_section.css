@@ -1,0 +1,313 @@
+.about-section .about-section-container .about-section-header {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--text-color);
+    line-height: 43px;
+    text-align: center;
+    max-width: 680px;
+    margin: 0px auto;
+}
+
+.about-section .about-section-container .about-section.team {
+    display: grid;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.about-section .about-section-container .about-section.team .team-members {
+    display: grid;
+    gap: 20px;
+    background: linear-gradient(96.05deg, rgba(150, 209, 227, 0.2) 45.21%, rgba(216, 228, 214, 0.2) 96.81%);
+    width: 100%;
+    border-radius: 20px;
+}
+
+.about-section .about-section-container .about-section.team .team-members .team-member.info {
+    display: flex;
+    gap: 30px;
+    padding: 40px 30px 40px 40px;
+}
+
+.about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-image-container {
+    display: grid;
+}
+
+.about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container {
+    display: grid;
+    margin: 20px 0px;
+    width: 100%;
+    height: fit-content;
+}
+
+.about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container hr {
+    width: 100%;
+    border: 1px solid rgba(204, 214, 218, 1);
+    margin: 0px;
+}
+
+.about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .location {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .about-member {
+    margin-top: 22px;
+}
+
+.about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .about-member p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 37px;
+    color: var(--text-color);
+}
+
+
+.about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .location .location-img {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .location .location-img img {
+    height: 80%;
+    width: auto;
+}
+
+.about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .location p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--text-color);
+}
+
+.about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .social-media-container {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    padding-bottom: 22px;
+}
+
+.about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .social-media-container .name h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .social-media-container .name p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .social-media-container .social-media {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .social-media-container .social-media .social-media-icon.mail {
+    background-color: rgba(23, 59, 88, 1);
+}
+
+.about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .social-media-container .social-media .social-media-icon.mail,
+.about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .social-media-container .social-media .social-media-icon.linkedin {
+    border-radius: 10px;
+}
+
+.about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .social-media-container .social-media .social-media-icon.linkedin {
+    background-color: rgba(0, 102, 153, 1);
+}
+
+.about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .social-media-container .social-media .social-media-icon {
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-image-container .team-member-image-vector {
+    width: 27px;
+    margin-left: auto;
+}
+
+.about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-image-container .team-member-image {
+    width: 290px;
+}
+
+.about-section .about-section-container .about-section-header .about-section-header-vector {
+    width: 270px;  
+    margin: auto;
+    margin-top: -17px;
+}
+
+.about-section .about-section-container .about-section-header .about-section-header-vector img {
+    width: 100%;
+}
+
+.about-section .about-section-container .about-section-text {
+    margin-top: 80px;
+}
+
+.about-section .about-section-container .about-section-text p {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 37px;
+}
+
+.about-section .about-section-container .about-section-text .read-more {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(23, 59, 88, 1);
+    line-height: 37px;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1023px) {
+    .about-section .about-section-container .about-section.team .team-members .team-member.info {
+        gap: 15px;
+        padding: 20px 15px 20px 20px;
+    }
+
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-image-container .team-member-image {
+        width: 250px;
+    }
+
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .social-media-container {
+        padding-bottom: 15px;
+    }
+
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .social-media-container .name h1 {
+        font-size: 26px;
+    }
+    
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .social-media-container .name p {
+        font-size: 14px;
+    }
+
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .location {
+        gap: 15px;
+        margin: 15px 0px;
+    }
+
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .about-member {
+        margin-top: 18px;
+    }
+    
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .about-member p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .about-section .about-section-container .about-section-header {
+        width: 80%;
+    }
+
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-image-container .team-member-image {
+        width: 230px;
+    }
+
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .location {
+        gap: 10px;
+        margin: 10px 0px;
+    }
+
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .social-media-container .name h1 {
+        font-size: 24px;
+    }
+
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .social-media-container .name p {
+        font-size: 12px;
+    }
+
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .social-media-container .social-media .social-media-icon {
+        padding: 12px;
+    }
+
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .location p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 720px) { 
+    .about-section .about-section-container .about-section.team .team-members .team-member.info {
+        gap: 10px;
+        padding: 15px 10px 15px 15px;
+    }
+
+    .about-section .about-section-container .about-section-header {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    .about-section .about-section-container .about-section-header .about-section-header-vector {
+        width: 200px;
+        margin-top: -23px;
+    }
+
+    .about-section .about-section-container .about-section-text p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .about-section .about-section-container .about-section-text {
+        margin-top: 60px;
+    }
+
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-image-container .team-member-image {
+        width: 200px;
+    }
+
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .location {
+        gap: 5px;
+        margin: 5px 0px;
+    }
+
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .social-media-container .name h1 {
+        font-size: 22px;
+    }
+
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .social-media-container .name p {
+        font-size: 10px;
+    }
+
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .social-media-container .social-media .social-media-icon {
+        padding: 10px;
+    }
+
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .location p {
+        font-size: 12px;
+    }
+
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-details-container .about-member p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 540px) { 
+    .about-section .about-section-container .about-section.team .team-members .team-member.info {
+        display: grid;
+    } 
+
+    .about-section .about-section-container .about-section.team .team-members .team-member.info .team-member-image-container .team-member-image {
+        margin: auto;
+    }
+
+    .about-section .about-section-container .about-section-header {
+        font-size: 28px;
+    }
+
+    .about-section .about-section-container .about-section-header .about-section-header-vector {
+        width: 200px;
+    }
+
+    .about-section .about-section-container .about-section-text {
+        margin-top: 40px;
+    }
+}

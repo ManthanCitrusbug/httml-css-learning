@@ -1,7 +1,8 @@
 .glimpses-section {
     max-width: 1440px;
-    justify-content: center;
     margin-top: 115px;
+    margin-bottom: 115px;
+    background-color: rgba(246, 248, 251, 1);
 }
 
 .glimpses-section .glimpses-section-container h1 {
@@ -75,6 +76,11 @@
     gap: 10px;
     justify-content: start;
     height: 20px;
+}
+
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .book-text .book-image,
+.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra .steps .steps-image {
+    width: unset;
 }
 
 .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .book-text p,
@@ -184,6 +190,7 @@
 
 .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-button img {
     height: 80%;
+    width: unset;
 }
 
 
@@ -200,6 +207,10 @@
 
     .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text p {
         font-size: 10px;
+    }
+
+    .glimpses-section .glimpses-section-container .glimpses .glimpses-card.info {
+        padding: 30px;
     }
 }
 

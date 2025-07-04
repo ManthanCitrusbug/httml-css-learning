@@ -46,6 +46,13 @@
 
 .intro-section .get-started .get-started-input {
     width: 542px;
+    padding-right: 230px;
+    border-radius: 56px;
+    border: 1px solid rgba(23, 59, 88, 1);
+    padding-left: 30px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    font-size: 18px;
 }
 
 .intro-section .get-started .get-started-input,
@@ -77,15 +84,6 @@
     font-size: 18px;
     font-weight: 700;
     color: var(--text-color);
-}
-
-.intro-section .get-started .get-started-input {
-    border-radius: 56px;
-    border: 1px solid rgba(23, 59, 88, 1);
-    padding-left: 30px;
-    padding-top: 21px;
-    padding-bottom: 21px;
-    font-size: 18px;
 }
 
 .intro-section .get-started .get-started-input::placeholder {
@@ -342,6 +340,7 @@
     .intro-section .get-started .get-started-input {
         width: 535px;
         font-size: 16px;
+        padding: 15px 230px 15px 15px;
     }
     
     .intro-section .get-started .get-started-input,
@@ -525,6 +524,7 @@
     .intro-section .get-started .get-started-input {
         width: 450px;
         font-size: 14px;
+        padding: 15px 195px 15px 15px;
     }
     
     .intro-section .get-started .get-started-input,
@@ -663,6 +663,7 @@
     .intro-section .get-started .get-started-input {
         width: 430px;
         font-size: 14px;
+        padding-right: 190px;
     }
     
     .intro-section .get-started .get-started-input,
@@ -727,6 +728,7 @@
     
     .intro-section .get-started .get-started-input {
         width: 100%;
+        padding: 15px 195px 15px 15px;
     }
 
     .intro-section .intro-image-section .user-review {
@@ -911,6 +913,10 @@
     .intro-section .intro-image-section {
         top: 0px;
     }
+
+    .intro-section .get-started .get-started-input {
+        padding: 15px 40% 15px 15px;
+    }
     
     .intro-section .get-started .get-started-button {
         width: 40%;
@@ -941,6 +947,10 @@
     
     .intro-section .get-started .get-started-button span {
         font-size: 10px;
+    }
+
+    .intro-section .get-started .get-started-input {
+        padding-right: 40% !important;
     }
 
     .intro-section .get-started .get-started-input,
