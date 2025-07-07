@@ -1,7 +1,5 @@
 .users-section {
-    padding-top: 80px;
-    padding-bottom: 100px;
-    padding: 80px 96px;
+    padding: 80px 96px 100px 96px;
 }
 
 .users-section .users-section-container {
@@ -76,18 +74,92 @@
 
 @media screen and (max-width: 1099px) { 
     .users-section {
-        padding: 0px 64px;
+        padding: 80px 64px 100px 64px;
+    }
+
+    .users-section .users-section-container .user-info {
+        padding: 0px;
+    }
+    
+    .users-section .users-section-container .user-info .heading {
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .users-section .users-section-container .user-info .heading .heading-discription {
+        font-size: 20px;
+    }
+    
+    .users-section .users-section-container .user-info .heading h1 {
+        font-size: 32px;
+    }
+    
+    .users-section .users-section-container .user-info .heading .heading-vector {
+        width: 200px;  
+        margin-left: -15px;
+    }
+}
+
+@media screen and (max-width: 940px) {    
+    .users-section .users-section-container .user-info .heading {
+        gap: 15px;
+    }
+
+    .users-section .users-section-container .user-info .heading .heading-discription {
+        font-size: 18px;
+    }
+    
+    .users-section .users-section-container .user-info .heading h1 {
+        font-size: 28px;
+    }
+    
+    .users-section .users-section-container .user-info .heading .heading-vector {
+        width: 180px;  
+        margin-left: -10px;
+    }
+
+    .users-section .users-section-container .see-more .see-more-button {
+        font-size: 16px;
+        padding: 12px 24px;
     }
 }
 
 @media screen and (max-width: 720px) { 
     .users-section {
-        padding: 0px 48px;
+        padding: 80px 48px 100px 48px;
+    }
+
+    .users-section .users-section-container {
+        display: grid;
+        gap: 40px;
+    }
+
+    .users-section .users-section-container .user-info {
+        display: grid;
+        text-align: center;
+    }
+
+    .users-section .users-section-container .user-info .heading {
+        gap: 20px;
+    }
+
+    .users-section .users-section-container .user-info .heading .heading-discription {
+        font-size: 18px;
+    }
+    
+    .users-section .users-section-container .user-info .heading h1 {
+        font-size: 28px;
+    }
+    
+    .users-section .users-section-container .user-info .heading .heading-vector {
+        width: 220px;  
+        position: unset;
+        margin: auto;
     }
 }
 
 @media screen and (max-width: 540px) { 
     .users-section {
-        padding: 0px 24px;
+        padding: 80px 24px 100px 24px;
     }
 }

@@ -1,0 +1,78 @@
+.material-section .material-section-container {
+    display: grid;
+    gap: 50px;
+}
+
+
+.material-section .material-section-container .material-section-header {
+    display: flex;
+    gap: 45px;
+    position: relative;
+}
+
+.material-section .material-section-container .material-section-header h1 {
+    width: fit-content;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.material-section .material-section-container .material-section-header .vectors {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    padding: 12px 0px;
+}
+
+.material-section .material-section-container .material-section-header .vectors .material-section-header-vector,
+.material-section .material-section-container .material-section-header .vectors .slider-arrow-container .slider-arrow {
+    height: 100%;
+}
+
+.material-section .material-section-container .material-section-header .vectors .slider-arrow-container .slider-arrow {
+    border-radius: 100%;
+    background-color: rgba(237, 242, 247, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.material-section .material-section-container .material-section-header .vectors .slider-arrow-container .slider-arrow img {
+    width: 24px;
+    height: 24px;
+    padding: 20px;
+}
+
+.material-section .material-section-container .material-section-header .vectors .slider-arrow-container {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    right: 0;
+}
+
+.material-section .material-section-container .material-section-header .vectors .material-section-header-vector .vector-image {
+    height: 100%;
+}
+
+@media screen and (max-width: 1099px) { 
+    .material-section .material-section-container .material-section-header {
+        gap: 20px;
+    }
+
+    .material-section .material-section-container .material-section-header h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .material-section .material-section-container .material-section-header .vectors {
+        height: 50px;
+        gap: 10px;
+    }
+
+    .material-section .material-section-container .material-section-header .vectors .slider-arrow-container .slider-arrow img {
+        width: 20px;
+        height: 20px;
+        padding: 15px;
+    }
+}
