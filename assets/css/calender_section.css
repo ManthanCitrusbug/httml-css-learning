@@ -39,6 +39,10 @@
     margin-top: 20px;
 }
 
+.calendar-section .calendar-section-container .see-more .see-more-button:hover {
+    background-color: rgb(235 235 235);
+}
+
 .calendar-section .calendar-section-container .see-more .see-more-button p {
     font-size: 18px;
     font-weight: 700;

@@ -21,6 +21,7 @@
     color: var(--text-color);
     align-content: center;
     line-height: 46px;
+    margin-top: 5px;
 }
 
 .intro-section .intro-text h1 {
@@ -42,6 +43,7 @@
     height: 62px;
     display: flex;
     justify-content: end;
+    margin-top: 30px;
 }
 
 .intro-section .get-started .get-started-input {
@@ -72,6 +74,10 @@
     gap: 18px;
     align-items: center;
     cursor: pointer;
+}
+
+.intro-section .get-started .get-started-button:hover {
+    background-color: rgb(225 166 44);
 }
 
 .intro-section .get-started .get-started-button img {
@@ -110,6 +116,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.intro-section .social .social-icon:hover {
+    background-color: rgb(229 232 235);
 }
 
 .intro-section .social .social-icon img.feide {

@@ -1,6 +1,7 @@
 .article-and-news-section {
     max-width: 1440px;
     padding-top: 100px;
+    padding-bottom: 80px;
 }
 
 .article-and-news-section .article-and-news-section-container .articles {
@@ -59,6 +60,10 @@
     padding: 20px 80px;
     box-shadow: 0px 3px 12px 0px rgba(23, 59, 88, 0.3);
     cursor: pointer;
+}
+
+.article-and-news-section .article-and-news-section-container .view-all .view-all-button:hover {
+    background-color: rgb(235 235 235);
 }
 
 @media screen and (max-width: 940px) {

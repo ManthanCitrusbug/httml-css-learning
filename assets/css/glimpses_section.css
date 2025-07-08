@@ -1,8 +1,10 @@
 .glimpses-section {
+    padding: 115px 0px;
+}
+
+.glimpses-section .glimpses-section-container {
+    margin: auto;
     max-width: 1440px;
-    margin-top: 115px;
-    margin-bottom: 115px;
-    background-color: rgba(246, 248, 251, 1);
 }
 
 .glimpses-section .glimpses-section-container h1 {
@@ -45,7 +47,7 @@
     margin-top: 11px;
 }
 
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic {
+.glimpses-card.basic {
     background-color: rgba(255, 255, 255, 1);
     border-radius: 8px;
     padding: 14px 19px;
@@ -53,17 +55,17 @@
     box-shadow: 0px 22.34px 17.87px 0px rgba(0, 0, 0, 0.15);
 }
 
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .basic-image,
+.glimpses-card.basic .basic-image,
 .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.video .basic-image {
     width: 100%;
     height: 100%;
 }
 
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .basic-image-container {
+.glimpses-card.basic .basic-image-container {
     max-width: 250px;
 }
 
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-title {
+.glimpses-card.basic .glimpses-card-title {
     font-size: 18px;
     font-weight: 700;
     color: var(--text-color);
@@ -71,36 +73,36 @@
     margin: 16px 0px;
 }
 
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .book-text {
+.glimpses-card.basic .book-text {
     display: flex;
     gap: 10px;
     justify-content: start;
     height: 20px;
 }
 
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .book-text .book-image,
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra .steps .steps-image {
+.glimpses-card.basic .book-text .book-image,
+.glimpses-card.basic .glimpses-card-extra .steps .steps-image {
     width: unset;
 }
 
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .book-text p,
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra .steps p,
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra .hours p {
+.glimpses-card.basic .book-text p,
+.glimpses-card.basic .glimpses-card-extra .steps p,
+.glimpses-card.basic .glimpses-card-extra .hours p {
     font-size: 14px;
     font-weight: 400;
     color: var(--text-color);
     line-height: 20px;
 }
 
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra {
+.glimpses-card.basic .glimpses-card-extra {
     display: flex;
     gap: 38px;
     height: 20px;
     margin-top: 16px;
 }
 
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra .steps,
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra .hours {
+.glimpses-card.basic .glimpses-card-extra .steps,
+.glimpses-card.basic .glimpses-card-extra .hours {
     display: flex;
     gap: 10px;
     justify-content: start;
@@ -139,45 +141,45 @@
     height: auto;
 }
 
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic hr {
+.glimpses-card.basic hr {
     margin-top: 20px;
     border: 1px solid rgba(217, 219, 233, 1);
 }
 
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail {
+.glimpses-card.basic .glimpses-card-user-detail {
     display: flex;
     gap: 10px;
     justify-content: start;
     align-items: center;
 }
 
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-image {
+.glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-image {
     width: 40px;
     height: 40px;
 }
 
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-image img {
+.glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-image img {
     width: 100%;
     height: auto;
 }
 
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text {
+.glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text {
     width: 60%;
 }
 
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text h3 {
+.glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text h3 {
     font-size: 14px;
     font-weight: 700;
     color: var(--text-color);
 }
 
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text p {
+.glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text p {
     font-size: 12px;
     font-weight: 400;
     color: var(--text-color);
 }
 
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-button {
+.glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-button {
     width: 30px;
     height: 30px;
     border-radius: 70px;
@@ -186,26 +188,31 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    padding: 3px;
 }
 
-.glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-button img {
+.glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-button:hover {
+    background-color: rgb(229 232 235);
+}
+
+.glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-button img {
     height: 80%;
     width: unset;
 }
 
 
 @media screen and (max-width: 1024px) {
-    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .book-text p,
-    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra .steps p,
-    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra .hours p {
+    .glimpses-card.basic .book-text p,
+    .glimpses-card.basic .glimpses-card-extra .steps p,
+    .glimpses-card.basic .glimpses-card-extra .hours p {
         font-size: 12px;
     }
 
-    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-title {
+    .glimpses-card.basic .glimpses-card-title {
         font-size: 14px;
     }
 
-    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text p {
+    .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text p {
         font-size: 10px;
     }
 
@@ -229,17 +236,17 @@
         width: auto;
     }
 
-    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic {
+    .glimpses-card.basic {
         display: flex;
         gap: 10px;
     }
 
-    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .basic-card-text-container {
+    .glimpses-card.basic .basic-card-text-container {
         width: 100%;
         padding: 10px;
     }
 
-    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text {
+    .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text {
         width: 80%;
     }
 }
@@ -249,11 +256,11 @@
         margin-top: 150px;
     }
 
-    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .basic-image-container {
+    .glimpses-card.basic .basic-image-container {
         max-width: 230px;
     }
 
-    .glimpses-section .glimpses-section-container .glimpses .glimpses-card.info {
+    .glimpses-card.info {
         padding: 26px 23px 24px 23px;
     }
     
@@ -270,29 +277,29 @@
     .glimpses-section {
         margin-top: 80px;
     }
-    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .basic-image-container {
+    .glimpses-card.basic .basic-image-container {
         max-width: 180px;
     }
 
-    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .book-text p,
-    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra .steps p,
-    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra .hours p {
+    .glimpses-card.basic .book-text p,
+    .glimpses-card.basic .glimpses-card-extra .steps p,
+    .glimpses-card.basic .glimpses-card-extra .hours p {
         font-size: 10px;
     }
 
-    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-extra {
+    .glimpses-card.basic .glimpses-card-extra {
         margin-top: 8px;
     }
 
-    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-title {
+    .glimpses-card.basic .glimpses-card-title {
         font-size: 12px;
     }
 
-    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text p {
+    .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text p {
         font-size: 10px;
     }
 
-    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text h3 {
+    .glimpses-card.basic .glimpses-card-user-detail .glimpses-card-user-detail-text h3 {
         font-size: 12px;
     }
 
@@ -315,11 +322,11 @@
         line-height: 34px;
     }
 
-    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .basic-card-text-container {
+    .glimpses-card.basic .basic-card-text-container {
         padding: 0px;
     }
 
-    .glimpses-section .glimpses-section-container .glimpses .glimpses-media .glimpses-card.basic .glimpses-card-title {
+    .glimpses-card.basic .glimpses-card-title {
         margin: 3px;
     }
 

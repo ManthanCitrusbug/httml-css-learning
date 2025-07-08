@@ -1,8 +1,53 @@
+.material-section {
+    padding: 80px 0px;
+}
+
+.glimpses-card.basic {
+    box-shadow: 0px 5px 6px 0px rgba(8, 15, 52, 0.15);
+}
+
+.glimpses-card.basic .basic-image-container {
+    width: 290px;
+}
+
+.glimpses-card-user-detail-image {
+    display: flex;
+    position: relative;
+}
+
+.glimpses-card.basic .glimpses-card-user-detail {
+    gap: 30px;
+}
+
+.glimpses-card-user-detail-image img {
+    margin-left: calc(var(--i) * 8px);
+    z-index: calc(100 - var(--i));
+    position: absolute;
+    border: 3px solid white;
+    border-radius: 100%;
+}
+
 .material-section .material-section-container {
     display: grid;
     gap: 50px;
+    max-width: 1440px;
+    margin: auto;
 }
 
+.material-section .materials-container {
+    overflow: auto;
+}
+
+.material-section .materials-container::-webkit-scrollbar {
+    display: none;
+}
+
+.material-section .material-section-container .materials {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    max-width: 1440px;
+}
 
 .material-section .material-section-container .material-section-header {
     display: flex;
@@ -36,6 +81,10 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+.material-section .material-section-container .material-section-header .vectors .slider-arrow-container .slider-arrow:hover {
+    background-color: rgb(229 232 235);
 }
 
 .material-section .material-section-container .material-section-header .vectors .slider-arrow-container .slider-arrow img {
@@ -74,5 +123,16 @@
         width: 20px;
         height: 20px;
         padding: 15px;
+    }
+}
+
+@media screen and (max-width: 940px) {  
+    .glimpses-card.basic {
+        display: flex;
+    }
+    
+    .material-section .material-section-container .material-section-header {
+        display: grid;
+        gap: 3px;
     }
 }
